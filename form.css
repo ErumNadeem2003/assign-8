@@ -1,0 +1,74 @@
+body {
+
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 184, 233, 1) 100%);
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 500px;
+    background: white;
+    border-radius: 9px;
+}
+
+.main h1 {
+    text-align: center;
+    padding: 0 0 25px 0;
+}
+
+.main form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .b {
+    text-align: center;
+    border-bottom: 2px solid rgb(189, 184, 184);
+    margin: 25px 0;
+}
+
+.c input {
+    width: 200%;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid rgb(221, 215, 215);
+    margin: 10px;
+}
+
+.e input {
+    width: 200%;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid rgb(221, 215, 215);
+    margin: 10px;
+}
+
+.pass{
+    padding-left: 160px;
+    text-decoration: double;
+
+}
+
+.f input {
+    width: 100%;
+    height: 45px;
+    border-radius: 25px;
+    margin: 10% 0 0 0;
+    background: rgb(143 107 209);
+    border: none;
+
+}
+.pass.pass:hover {
+  text-decoration: underline;
+}
